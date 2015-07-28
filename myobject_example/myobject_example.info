@@ -1,0 +1,6 @@
+name = MyObject Example
+description = Exemple de gestion d'une table à plat avec drupal
+dependencies[] = myobject
+package = Misc
+core = 7.x
+files[] = lib/Nodelog.inc
