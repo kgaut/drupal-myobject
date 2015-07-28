@@ -27,6 +27,33 @@ function myobject_example_schema() {
         'type' => 'int',
         'default' => null,
       ),
+      /*
+       * Exemple de champs possibles
+
+      'date_to' => array (
+        'description' => 'Date de fin',
+        'mysql_type' => 'DATETIME',
+        'not null' => true,
+      ),
+      'message' => array(
+        'description' => 'Message' ,
+        'type' => 'text',
+        'size' => 'normal',
+        'default' => null,
+      ),
+      'montant' => array(
+        'description' => 'Montant' ,
+        'type' => 'float',
+        'size'  => 'big',
+        'default' => null,
+      ),
+   	  'title'  => array(
+   	    'type' => 'varchar',
+   	    'length' => 255,
+   	    'not null' => TRUE, 
+   	    'default' => ''
+   	  ),
+      */
     ),
     'primary key' => array('nlid'),
     'foreign keys' => array (
