@@ -152,6 +152,13 @@ abstract class MyObject {
     }
   }
 
+  /**
+   * Load items based on conditions
+   * @param array $conditions
+   * @param bool|FALSE $asArray if true and only one items, it will be returned
+   * as an object, if true, in a array containing this object
+   * @return array|mixed
+   */
   protected static function _load($conditions = array(), $asArray = FALSE) {
     $objectsArray = array();
     $query = db_select(static::$db_table_name, 't');
