@@ -1,0 +1,5 @@
+name = MyObject
+description = Abstract class to deal with flat data tables
+package = Misc
+core = 7.x
+files[] = lib/MyObject.inc
