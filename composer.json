@@ -1,0 +1,22 @@
+{
+    "name": "kgaut/drupal-myobject",
+    "description": "Abstract class to deal with flat data tables",
+    "keywords": ["drupal","drupal7"],
+    "homepage": "https://github.com/kgaut/drupal-myobject",
+    "license": "GNU GPL V2",
+    "authors": [
+        {
+            "name": "Kevin Gautreau",
+            "email": "contact@kgaut.net",
+            "homepage": "https://www.kgaut.net",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+    	"composer/installers": "~1.0"
+    },
+    "extra": {
+        "installer-name": "myobject"
+    },
+    "type":"drupal-module"
+}
