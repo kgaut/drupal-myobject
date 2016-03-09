@@ -172,7 +172,7 @@ abstract class MyObject {
     $result = $query->execute();
     if ($result) {
       while ($row = $result->fetchObject()) {
-        $instance = new static();
+        $instance = new static(array());
         foreach ($instance as $k => &$v) {
           if (isset($row->{$k})) {
             $v = $row->{$k};
